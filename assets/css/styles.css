@@ -1,0 +1,81 @@
+
+/* CARACTERISTICAS GENERALES PARA TODO EL BODY */
+
+body{
+    background-color: black;
+}
+
+
+/* CARACTERISTICAS DE LA BARRA DE NAVEGACION */
+    .atributos-barra-navegacion{
+        color: white;
+        background-color: rgb(0, 0, 0, 0.3);
+        position: fixed;
+        z-index: 1;
+        width: 100vw;
+        text-shadow: 2px 2px 50px black;
+        
+
+    }
+
+    .nav-link{
+        background-color: rgb(0, 0, 0, 0.2);
+
+    }
+
+    .boton-sandwich{
+        color: white;
+        z-index: 1;
+    }
+
+
+    /* unvisited link */
+    a:link {
+        color:white;
+    }
+    
+    /* visited link */
+    a:visited {
+        color: white;
+    }
+    
+    /* mouse over link */
+    a:hover {
+        color: blue;
+    }
+    
+    /* selected link */
+    a:active {
+        color: blue;
+    } 
+
+
+/* CARACTERISTICAS DEL CARRUSEL */
+    .carousel-control-next{
+        z-index: 0;
+    }
+
+    .carousel-control-prev{
+        z-index: 0;
+    }
+
+/* CARACTERISTICAS DE LA SECCION DE CONTENIDO */
+
+    #contenido{
+        background-color: black;
+        text-align: center;
+        color: white;
+        width: 100vw;
+    }
+
+
+    /* CARACTERISTICAS DE LAS CARTAS */
+        .cartas{
+            width: 100%;
+        padding-right:0;
+        padding-left: 0;
+        margin-right: 0;
+        margin-left: 0;
+        color: black;
+        text-align: left;
+        }
