@@ -6,6 +6,29 @@ body{
 }
 
 
+/* Propiedades de todos los links de la página */
+
+    /* unvisited link */
+    a:link {
+        color:white;
+    }
+
+    /* visited link */
+    a:visited {
+        color: white;
+    }
+
+    /* mouse over link */
+    a:hover {
+        color: blue;
+    }
+
+    /* selected link */
+    a:active {
+        color: blue;
+    } 
+
+
 /* CARACTERISTICAS DE LA BARRA DE NAVEGACION */
     .atributos-barra-navegacion{
         color: white;
@@ -29,27 +52,6 @@ body{
     }
 
 
-    /* unvisited link */
-    a:link {
-        color:white;
-    }
-    
-    /* visited link */
-    a:visited {
-        color: white;
-    }
-    
-    /* mouse over link */
-    a:hover {
-        color: blue;
-    }
-    
-    /* selected link */
-    a:active {
-        color: blue;
-    } 
-
-
 /* CARACTERISTICAS DEL CARRUSEL */
     .carousel-control-next{
         z-index: 0;
@@ -67,6 +69,14 @@ body{
         color: white;
         width: 100vw;
     }
+    
+    /* caracteristicas h3 en la que estan los iconos */
+    .h-icono{
+        background-color:#07575b;
+        margin-bottom: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
 
 
     /* CARACTERISTICAS DE LAS CARTAS */
@@ -76,6 +86,13 @@ body{
         padding-left: 0;
         margin-right: 0;
         margin-left: 0;
-        color: black;
+        color: white;
         text-align: left;
+        background-color: #003B46;
+        margin-top: 30px;
+
+        }
+
+        .card-img-top{
+            height: 50%;
         }
