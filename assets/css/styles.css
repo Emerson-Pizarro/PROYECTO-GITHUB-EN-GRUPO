@@ -72,7 +72,7 @@ body{
     
     /* caracteristicas h3 en la que estan los iconos */
     .h-icono{
-        background-color:#07575b;
+        background-color:#017560;
         margin-bottom: 20px;
         padding-top: 5px;
         padding-bottom: 5px;
@@ -88,11 +88,44 @@ body{
         margin-left: 0;
         color: white;
         text-align: left;
-        background-color: #003B46;
+        background-color: #143d37;
         margin-top: 30px;
 
         }
 
         .card-img-top{
             height: 50%;
+        }
+
+
+    /* CARACTERISTICAS DEL FORMULARIO */
+        #seccion-formulario{
+            background-color:#0e0d0c;
+            color: white;
+            padding-bottom: 40px;
+        }
+       
+
+
+    /* CARACTERISTICAS DE PIE DE PAGINA */
+
+        #pie-pagina{
+            background-color: #014d40;
+            width: 100vw;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            color: white;
+
+
+        }
+
+        #h3-footer{
+            margin: 0;
+            
+        }
+
+        .iconos-footer{
+            
+            font-size: 35px;
+            padding-right: 5px;
         }
