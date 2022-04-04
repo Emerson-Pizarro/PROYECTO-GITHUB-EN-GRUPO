@@ -104,6 +104,13 @@ body{
             color: white;
             padding-bottom: 40px;
         }
+
+        #boton-enviar{
+            width:80%;
+            margin-top: 10px;
+            padding-top:10px;
+            padding-bottom: 10px;
+        }
        
 
 
