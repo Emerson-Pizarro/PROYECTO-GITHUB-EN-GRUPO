@@ -1,0 +1,131 @@
+
+/* CARACTERISTICAS GENERALES PARA TODO EL BODY */
+
+body{
+    background-color: black;
+}
+
+
+/* Propiedades de todos los links de la página */
+
+    /* unvisited link */
+    a:link {
+        color:white;
+    }
+
+    /* visited link */
+    a:visited {
+        color: white;
+    }
+
+    /* mouse over link */
+    a:hover {
+        color: blue;
+    }
+
+    /* selected link */
+    a:active {
+        color: blue;
+    } 
+
+
+/* CARACTERISTICAS DE LA BARRA DE NAVEGACION */
+    .atributos-barra-navegacion{
+        color: white;
+        background-color: rgb(0, 0, 0, 0.3);
+        position: fixed;
+        z-index: 1;
+        width: 100vw;
+        text-shadow: 2px 2px 50px black;
+        
+
+    }
+
+    .nav-link{
+        background-color: rgb(0, 0, 0, 0.2);
+
+    }
+
+    .boton-sandwich{
+        color: white;
+        z-index: 1;
+    }
+
+
+/* CARACTERISTICAS DEL CARRUSEL */
+    .carousel-control-next{
+        z-index: 0;
+    }
+
+    .carousel-control-prev{
+        z-index: 0;
+    }
+
+/* CARACTERISTICAS DE LA SECCION DE CONTENIDO */
+
+    #contenido{
+        background-color: black;
+        text-align: center;
+        color: white;
+        width: 100vw;
+    }
+    
+    /* caracteristicas h3 en la que estan los iconos */
+    .h-icono{
+        background-color:#017560;
+        margin-bottom: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+
+    /* CARACTERISTICAS DE LAS CARTAS */
+        .cartas{
+            width: 100%;
+        padding-right:0;
+        padding-left: 0;
+        margin-right: 0;
+        margin-left: 0;
+        color: white;
+        text-align: left;
+        background-color: #143d37;
+        margin-top: 30px;
+
+        }
+
+        .card-img-top{
+            height: 50%;
+        }
+
+
+    /* CARACTERISTICAS DEL FORMULARIO */
+        #seccion-formulario{
+            background-color:#0e0d0c;
+            color: white;
+            padding-bottom: 40px;
+        }
+       
+
+
+    /* CARACTERISTICAS DE PIE DE PAGINA */
+
+        #pie-pagina{
+            background-color: #101c1a;
+            width: 100vw;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            color: white;
+
+
+        }
+
+        #h3-footer{
+            margin: 0;
+            
+        }
+
+        .iconos-footer{
+            
+            font-size: 35px;
+            padding-right: 5px;
+        }
