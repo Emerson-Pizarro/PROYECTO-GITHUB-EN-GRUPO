@@ -1,8 +1,9 @@
 
-/* CARACTERISTICAS GENERALES PARA TODO EL BODY */
+/* CARACTERÍSTICAS GENERALES PARA TODO EL BODY */
 
 body{
     background-color: black;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -29,7 +30,7 @@ body{
     } 
 
 
-/* CARACTERISTICAS DE LA BARRA DE NAVEGACION */
+/* CARACTERíSTICAS DE LA BARRA DE NAVEGACION */
     .atributos-barra-navegacion{
         color: white;
         background-color: rgb(0, 0, 0, 0.3);
@@ -38,7 +39,10 @@ body{
         width: 100vw;
         text-shadow: 2px 2px 50px black;
         
+    }
 
+    .navbar-brand{
+        font-family: 'Encode Sans SC', sans-serif;
     }
 
     .nav-link{
@@ -52,7 +56,7 @@ body{
     }
 
 
-/* CARACTERISTICAS DEL CARRUSEL */
+/* CARACTERíSTICAS DEL CARRUSEL */
     .carousel-control-next{
         z-index: 0;
     }
@@ -61,7 +65,7 @@ body{
         z-index: 0;
     }
 
-/* CARACTERISTICAS DE LA SECCION DE CONTENIDO */
+/* CARACTERíSTICAS DE LA SECCION DE CONTENIDO */
 
     #contenido{
         background-color: black;
@@ -70,7 +74,7 @@ body{
         width: 100vw;
     }
     
-    /* caracteristicas h3 en la que estan los iconos */
+    /* características h3 en la que estan los iconos */
     .h-icono{
         background-color:#017560;
         margin-bottom: 20px;
@@ -79,7 +83,7 @@ body{
     }
 
 
-    /* CARACTERISTICAS DE LAS CARTAS */
+    /* CARACTERÍSTICAS DE LAS CARTAS */
         .cartas{
             width: 100%;
         padding-right:0;
@@ -98,7 +102,7 @@ body{
         }
 
 
-    /* CARACTERISTICAS DEL FORMULARIO */
+    /* CARACTERÍSTICAS DEL FORMULARIO */
         #seccion-formulario{
             background-color:#0e0d0c;
             color: white;
@@ -114,7 +118,7 @@ body{
        
 
 
-    /* CARACTERISTICAS DE PIE DE PAGINA */
+    /* CARACTERÍSTICAS DE PIE DE PÁGINA */
 
         #pie-pagina{
             background-color: #101c1a;
@@ -128,6 +132,7 @@ body{
 
         #h3-footer{
             margin: 0;
+            font-family: 'Encode Sans SC', sans-serif;
             
         }
 
